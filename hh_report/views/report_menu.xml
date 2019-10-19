@@ -1,0 +1,15 @@
+<odoo>
+
+    <record model="ir.actions.act_window" id="action_accounting_report">
+        <field name="name">Báo cáo</field>
+        <field name="res_model">hh.actionreport</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[('custom_id','ilike','NOP_COC'),'|',('active','=',False),('active','=',True)]</field>
+    </record>
+
+
+    <menuitem id="menu_accounting_report"
+              parent="hh_accounting.menu_hh_accounting"
+              name="Báo cáo 2"
+              action="action_accounting_report" groups="hh_accounting.group_accounting_user"/>
+</odoo>

@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_hh_actionreport,hh_actionreport accounting,hh_automation_report.model_hh_actionreport,hh_accounting.group_accounting_user,1,0,0,0
