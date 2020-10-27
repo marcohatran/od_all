@@ -4,4 +4,4 @@ pyasn1
 pyasn1_modules
 rsa
 google-api-python-client
-cryptography==1.4
+cryptography==3.2
